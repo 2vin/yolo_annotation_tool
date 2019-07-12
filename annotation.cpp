@@ -90,7 +90,7 @@ void onMouse(int event, int x, int y, int flags, void* userdata)
     if(inProgress && !doneProgress)
     {
         Mat tFrame = frame.clone();
-        rectangle(tFrame, Point(tRect.x, tRect.y), Point(x,y), Scalar(255,0,255), 1);       
+        rectangle(tFrame, Point(tRect.x, tRect.y), Point(x,y), Scalar(255,0,255), 2);       
         tRec = Rect(tRect.x, tRect.y, x-tRect.x, y-tRect.y);
         imshow("frame", tFrame);
     }
@@ -177,15 +177,15 @@ int  main(int argc, const char** argv)
         {   
             for(int i = 0; i<rects.size(); i++)
             {
-                rectangle(frame, rects[i].rect, Scalar(255,0,0), 1);
+                rectangle(frame, rects[i].rect, Scalar(255,0,0), 2);
             }        
             imshow("frame", frame);
         }
 
 	    Mat tFrame = frame.clone();
-	    line(tFrame, Point(pointer.x, 0), Point(pointer.x,frame.rows), Scalar(0,255,255), 1);
-	    line(tFrame, Point(0, pointer.y), Point(frame.cols, pointer.y), Scalar(0,255,255), 1);
-	    rectangle(tFrame, tRec, Scalar(255,0,255), 1);
+	    line(tFrame, Point(pointer.x, 0), Point(pointer.x,frame.rows), Scalar(0,255,255), 2);
+	    line(tFrame, Point(0, pointer.y), Point(frame.cols, pointer.y), Scalar(0,255,255), 2);
+	    rectangle(tFrame, tRec, Scalar(255,0,255), 2);
 	    imshow("frame", tFrame);    
         
         char c = waitKey(10);
