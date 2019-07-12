@@ -4,7 +4,7 @@
 This is an open-source tool for reearchers to annotate dataset for YOLO quickly in opencv. If you are familiar with opencv c++, you can directly use this tool to annotate data and create object detection dataset for the deep learning framework - YOLO. 
 
 ## How to use this tool?
-1. Clone the repository from https://github.com/2vin/yolo_annotation
+1. Clone the repository from https://github.com/2vin/yolo_annotation_tool
 2. Compile the program using the instructions in the file 'compile.sh'
 3. Once compiled, reset the counter in '/data/index.txt' to '0' to start with.
 4. Run the executable as mentioned in the file 'compile.sh'
