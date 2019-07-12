@@ -1,5 +1,5 @@
 ## Yolo Annotation Tool (YAT)
-Annotation tool for YOLO in opencv
+(Annotation tool for YOLO in opencv)
 
 This is an open-source tool for reearchers to annotate dataset for YOLO quickly in opencv. If you are familiar with opencv c++, you can directly use this tool to annotate data and create object detection dataset for the deep learning framework - YOLO. 
 
@@ -15,3 +15,6 @@ This is an open-source tool for reearchers to annotate dataset for YOLO quickly 
     Press 's' key to save the annotations in the output folder.
     Press 'Esc' key to quit the program.
 6. Repeat the process for new video files, and keep track of the counter in '/data/index.txt'
+
+## Screenshot
+![YAT](https://user-images.githubusercontent.com/38634222/61153312-77382380-a508-11e9-9449-32e1995e8612.png)
