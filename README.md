@@ -1,3 +1,6 @@
+<a href="https://linkedin.com/in/2vin"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></img></a>
+<a href="https://connect.vin"><img src="https://img.shields.io/badge/website-FF6A00?style=for-the-badge&logo=About.me&logoColor=white"></img></a>
+
 ## Yolo Annotation Tool (YAT)
 (Annotation tool for YOLO in opencv)
 
